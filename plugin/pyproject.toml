@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+    "setuptools>=61",
+]
+
+[project]
+name = "plugin-system-demo-plugin"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = []
+dynamic = ["version"]
+requires-python = ">=3.7"
